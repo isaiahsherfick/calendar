@@ -10,5 +10,7 @@ class Day:
             self.eventMap.update({i:None})
 
     def getEventByHour(hour):
-        return 
+        return
+    def __repr__(self):
+        return f"Day object with day#{self.day}"
 
