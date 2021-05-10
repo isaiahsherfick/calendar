@@ -1,2 +1,2 @@
 # calendar
-My alternative to a google calendar in my feeble attempts to get organized
+My google-less calendar in my feeble attempts to get organized
