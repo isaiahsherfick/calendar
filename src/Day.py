@@ -11,6 +11,11 @@ class Day:
 
     def getEventByHour(hour):
         return
+
+    def addEvent(e):
+        e.getStartTime()
+        e.getEndTime()
+
     def __repr__(self):
         return f"Day object with day#{self.day}"
 
