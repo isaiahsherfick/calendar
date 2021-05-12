@@ -1,12 +1,9 @@
 	cmd					behavior
+-----------------------------------------------------------------------------------------
 	glcal					display tasks for the day
 	glcal add <task>			prompt for information about the task
 	glcal -d <month> <day>			display tasks for that day
 	glcal -w <day of the week>		display tasks for that day
 	glcal -t 				display tasks for tomorrow
 	glcal -f <task>				find the date when a task is scheduled for 
-	glcal complete <task>			complete task
 	glcal -bg			run in the background, notify user when a task is upcoming (?) extra feature
-
-
-	fucking oh yeah make leap years work too

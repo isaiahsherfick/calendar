@@ -28,9 +28,16 @@ class Month:
     def getDays(self):
         if self.month in self.monthDict:
             return self.monthDict.get(self.month)
+
+    def getDay(self,day):
+        return self.dayList[day]
+
     def displayDayList(self):
         for d in self.dayList:
             print(d)
+
+    def __repr__(self):
+        return f"{Month #self.month}"
 
 
 #test main
