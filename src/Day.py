@@ -46,6 +46,11 @@ class Day:
     def __repr__(self):
         return f"Day object with day#{self.day}"
 
+    def save(self):
+        saveString = "DAY:{self.day}:EVENTS:[\n"
+        for i in self.eventMap:
+
+
 
 if __name__ == '__main__':
     d = Day()
