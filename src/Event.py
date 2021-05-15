@@ -55,6 +55,9 @@ class Event:
     def __repr__(self):
         return f"{self.name} : {self.startTime} - {self.endTime} - {self.desc}"
 
+    def save(self):
+        return f"EVENT:{self.name}:{self.desc}:{self.startTime}:{self.endTime}"
+
 
 if __name__ == '__main__':
     e = Event("Jam","Jam in Joe's garage - bring an amp",datetime.time(17,00,00),datetime.time(22,00,00))

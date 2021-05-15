@@ -31,6 +31,11 @@ class Year:
     def isLeapYear(self):
         return isLeapYear(self.year)
 
+    def __repr__(self):
+        return f"year #{self.year}"
+
+    def save(self):
+
 
 
 if __name__ == '__main__':
