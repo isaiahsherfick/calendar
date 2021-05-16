@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+make each atomic object return a formatted string saving all of its variables
+then in each of the containers, for each thing, serialize
+				then when that container gets serialized, it calls serialize on each of its components
+				making one big nested text file json wannabe thing
+				which calendar can call to construct years, who reads stuff to construct months, down the line etc
+
+
+you're welcom efuture me
+
+
+
+
+
+8=========D
